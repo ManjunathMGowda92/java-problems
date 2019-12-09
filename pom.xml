@@ -9,5 +9,6 @@
   	<module>arrays-problems</module>
   	<module>matrix-problems</module>
   	<module>test-doc</module>
+  	<module>string-problems</module>
   </modules>
 </project>
