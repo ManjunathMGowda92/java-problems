@@ -21,9 +21,9 @@
 		</plugins>
 	</build>
 	<modules>
+		<module>test-doc</module>
 		<module>arrays-problems</module>
 		<module>matrix-problems</module>
-		<module>test-doc</module>
 		<module>string-problems</module>
 		<module>number-problems</module>
 	</modules>
