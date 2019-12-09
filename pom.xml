@@ -5,4 +5,9 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>java-problems</name>
+  <modules>
+  	<module>arrays-problems</module>
+  	<module>matrix-problems</module>
+  	<module>test-doc</module>
+  </modules>
 </project>
