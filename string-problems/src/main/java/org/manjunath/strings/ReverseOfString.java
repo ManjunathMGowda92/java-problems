@@ -34,4 +34,24 @@ public class ReverseOfString {
 		
 		return strBuilder.toString();		
 	}
+	
+	/**
+	 * Method reverseString() is used to reverse the character input array,
+	 * without using an extra array.
+	 * 
+	 * @param s
+	 *            Character input array
+	 * @return reversed Character array
+	 */
+	public char[] reverseString(char[] s) {
+		int length = s.length;
+		for (int i = 0; i < length / 2; i++) {
+			char c = s[i];
+
+			s[i] = s[length - 1 - i];
+			s[length - 1 - i] = c;
+		}
+
+		return s;
+	}
 }
